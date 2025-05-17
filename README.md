@@ -35,6 +35,15 @@ You can easily run this code on google colab by just clicking this badge [![Open
 
 Live version not have google colab version because the google colab will crash.
 
+## Models
+
+We have used caffe Open Pose model. we have the code for donwloading the model.
+
+```python
+gdown.download(id="1D3ytIZ-ZMMd5MbvVbf2Sn5oZ1L0aQ9IG", output="pose_deploy_linevec_faster_4_stages.prototxt", quiet=False)
+gdown.download(id="1f-fCSTg7qFHRVKGIptyPJsgNwRs4XDsK", output="pose_iter_160000.caffemodel", quiet=False)
+```
+
 
 ## 🪪 License
 
