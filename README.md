@@ -45,13 +45,36 @@ gdown.download(id="1f-fCSTg7qFHRVKGIptyPJsgNwRs4XDsK", output="pose_iter_160000.
 ```
 
 ## 📝 Tutorial
+
+### Step 1: Install CUDA toolkit
 The first steps are haveing a NVIDIA GPU and download and install the CUDA Toolki (I have used the version 11.7.0) [![CUDA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)](https://developer.nvidia.com/cuda-toolkit-archive)
 
+Check CUDA version:
+```sh
+nvcc --version
+```
+
+### Step 2: Install cuDNN
 After that you should donwload and install the cuDN (I have used the version 8.6.0 for 11.X CUDA) [![cuDNN](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)](https://developer.nvidia.com/rdp/cudnn-archive)
 
 After these installation make sure you move the dll files from the cuDNN zip file into the CUDA installation path.
 
+### Step 3: Install OpenCV with CMake
 Now you have installed the CUDA and cuDNN now we use the Visual studio and CMake to build our OpenCV with CUDA. you can watch this video [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=5NwU1MmmqWo)
+
+### Step 4: Import Libraries
+
+we need to import these libraries :
+
+`math`, `numpy`, `cv2`, `gdown`, `time`
+
+```python
+import math
+import numpy as np
+import cv2 as cv
+import gdown
+import time
+```
 
 
 
