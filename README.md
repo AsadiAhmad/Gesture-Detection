@@ -44,6 +44,12 @@ gdown.download(id="1D3ytIZ-ZMMd5MbvVbf2Sn5oZ1L0aQ9IG", output="pose_deploy_linev
 gdown.download(id="1f-fCSTg7qFHRVKGIptyPJsgNwRs4XDsK", output="pose_iter_160000.caffemodel", quiet=False)
 ```
 
+## 📝 Tutorial
+The first steps are haveing a NVIDIA GPU and download and install the CUDA Toolkit [![CUDA](https://seekvectors.com/files/download/Nvidia-02.png)](https://developer.nvidia.com/cuda-toolkit-archive) (I have used the version 11.7.0):
+
+After that you should donwload and install the cuDNN [![cuDNN](https://seekvectors.com/files/download/Nvidia-02.png)](https://developer.nvidia.com/rdp/cudnn-archive) (I have used the version 8.6.0 for 11.X CUDA)
+
+
 
 ## 🪪 License
 
