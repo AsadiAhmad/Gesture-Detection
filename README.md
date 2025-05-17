@@ -28,3 +28,9 @@ Real-time Gesture Detection using CUDA-accelerated OpenCV in Python. Leverages G
 - CUDA : used for NVIDIA GPU acceleration and get better frame rate
 - MatPlotLib : Library for showing the charts in python
 - GDown : Download Resources from Google Drive
+
+## 💻 Run the Notebook on Google Colab
+
+You can easily run this code on google colab by just clicking this badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/AsadiAhmad/Gesture-Detection/blob/main/Code/Gesture_Detection.ipynb)
+
+Live version not have google colab version because the google colab will crash
