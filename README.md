@@ -33,4 +33,9 @@ Real-time Gesture Detection using CUDA-accelerated OpenCV in Python. Leverages G
 
 You can easily run this code on google colab by just clicking this badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/AsadiAhmad/Gesture-Detection/blob/main/Code/Gesture_Detection.ipynb)
 
-Live version not have google colab version because the google colab will crash
+Live version not have google colab version because the google colab will crash.
+
+
+## 🪪 License
+
+This project is licensed under the MIT License.
