@@ -1,2 +1,6 @@
 # Gesture-Detection
 Real-time Gesture Detection using CUDA-accelerated OpenCV in Python. Leverages GPU for high-performance image processing tasks, ensuring efficient and responsive gesture recognition.
+
+<div display=flex align=center>
+  <img src="/Gif/Gesture.gif" width="600px"/>
+</div>
